@@ -149,7 +149,7 @@ export default function BirthdayCard() {
         <h1 className="text-4xl font-bold mb-4 text-gray-400">
           Happy Birthday, {cardData.name}!
         </h1>
-        <p className="text-2xl text-purple-400 mb-6 font-semibold">You're {cardData.age} years old today!🤭</p>
+        <p className="text-2xl text-purple-400 mb-6 font-semibold">You &apos;re {cardData.age} years old today!🤭</p>
         
         {/* Candles */}
         <div className="relative mb-8">

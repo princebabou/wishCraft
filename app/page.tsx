@@ -120,9 +120,9 @@ export default function Home() {
       </div>
       <div className={`bg-white rounded-lg shadow-2xl p-6 sm:p-8 md:p-10 w-full max-w-sm sm:max-w-md md:max-w-lg transition-all duration-500 ${isAnimating ? 'scale-75 opacity-0 rotate-12' : 'scale-100 opacity-100 rotate-0'} relative z-10`}>
         <h1 className="font-bold mb-6 sm:mb-8 text-center text-purple-600 text-xl sm:text-2xl leading-tight">
-          Create a magical birthday moment! <span className="block mt-2 text-base sm:text-lg text-gray-600"> Enter the birthday person's name, age, and a custom message that will
+          Create a magical birthday moment! <span className="block mt-2 text-base sm:text-lg text-gray-600"> Enter the birthday person &apos;s name, age, and a custom message that will
           appear after they blow out their candles. You can also customize the
-          URL slug. If you leave it empty, we'll make one for you 🎁</span>
+          URL slug. If you leave it empty, we&apos;ll make one for you 🎁</span>
         </h1>
         <form ref={formRef} onSubmit={handleSubmit} className="space-y-4 sm:space-y-6 text-black">
           <div className="relative group">
@@ -132,7 +132,7 @@ export default function Home() {
               id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="Birthday Star's Name"
+              placeholder="Birthday Star&apos;s Name"
               required
               className="block w-full pl-12 pr-4 py-2 sm:py-3 text-base sm:text-lg rounded-lg border-2 border-gray-300 bg-white shadow-sm focus:border-purple-500 focus:ring focus:ring-purple-200 focus:ring-opacity-50 transition-all duration-300"
             />
