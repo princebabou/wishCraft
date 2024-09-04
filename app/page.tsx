@@ -189,7 +189,7 @@ export default function Home() {
             className="w-40 h-20 sm:w-56 sm:h-28 md:w-64 md:h-32"
           >
             <defs>
-              <linearGradient y2="0%" x2="100%" y1="0%" x1="0%" id="gradient">
+              <linearGradient y2="0%" x2="100%" y1="100%" x1="0%" id="gradient">
                 <stop stopColor="pink" offset="0%"></stop>
                 <stop stopColor="purple" offset="50%"></stop>
                 <stop stopColor="indigo" offset="100%"></stop>
